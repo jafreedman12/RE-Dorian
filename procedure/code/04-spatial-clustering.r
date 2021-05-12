@@ -79,7 +79,7 @@ thresdist = counties %>%
 
 # three optional steps to view results of nearest neighbors analysis
 thresdist # view statistical summary of the nearest neighbors 
-plot(counties_sp, border = 'lightgrey')  # plot counties background
+plot(counties, border = 'lightgrey')  # plot counties background
 plot(selfdist, coords, add=TRUE, col = 'red') # plot nearest neighbor ties
 
 #Create weight matrix from the neighbor objects

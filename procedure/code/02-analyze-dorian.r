@@ -115,7 +115,7 @@ counties <- get_estimates("county",
                           product="population",
                           output="wide",
                           geometry=TRUE, keep_geo_vars=TRUE, 
-                          key="yourkey")
+                          key="df60b92b5b48ed43a3dbb334946f506f1a11ad26")
 
 # select only the states you want, with FIPS state codes
 # look up fips codes here:
